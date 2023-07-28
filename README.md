@@ -1,6 +1,6 @@
 # Microsoft Graph to Elasticsearch Audit Log Sync
 
-This is a Python script that interacts with the Microsoft Graph API to retrieve Office 365 audit logs and stores the logs in a CSV file, which is then shipped to an Elasticsearch instance.
+This is a Python script that interacts with the Microsoft Graph API to retrieve Entra (Azure AD) audit logs and stores the logs in a CSV file, which is then shipped to an Elasticsearch instance.
 
 The script runs in an infinite loop, making a request to the API every 5 minutes, and retrieving logs from the last 5 minutes.
 
