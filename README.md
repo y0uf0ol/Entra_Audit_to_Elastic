@@ -22,14 +22,11 @@ This script depends on:
 2. Error handling is minimal. Ensure correct configuration of your credentials and connectivity to Microsoft Graph and Elasticsearch.
 
 ## Future Features
-1. **Fix CSV Handling and Make It More Modern:** Enhance the way CSV files are handled to make it more efficient and modern.
+1. **Fix CSV Handling and Make It More Modern:** Eliminate the CSV file to make it more efficient and modern.
 2. **Better Error Handling:** Improve error handling to make the script more robust and reliable.
 3. **Docker Container:** Package the script into a Docker container for easier distribution, deployment, and execution.
 4. **Better Credential Handling:** Enhance the way credentials are managed and stored, possibly integrating with Azure Key Vault or other secure credential storage solutions.
 
 ## License
 This project is licensed under the terms of the [MIT license](LICENSE).
-
-## Contact
-For questions or feedback, please reach out to [username@example.com](mailto:username@example.com).
 
